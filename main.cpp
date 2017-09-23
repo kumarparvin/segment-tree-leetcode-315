@@ -67,8 +67,13 @@ public:
 
 struct mycompare
 {
-    bool operator() (pair<int,int>& i , pair<int,int>&  j)
+   bool operator() (pair<int,int>& i , pair<int,int>&  j)
     {
+       // if number value is same then sort them acording to index
+        if((i.first)==(j.first))
+        {
+            return (i.second)<(j.second);
+        }
         return ((i.first)<(j.first));
     }
 }mycmp;
