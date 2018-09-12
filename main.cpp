@@ -1,7 +1,7 @@
 //
 //  main.cpp
 //  segement_tree
-//
+//  for practice
 //  Created by Parvin ... on 23/09/17.
 //  Copyright © 2017 Parvin ... All rights reserved.
 //
