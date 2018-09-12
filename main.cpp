@@ -11,7 +11,7 @@
 #include<utility>
 using namespace std;
 
-// class for segement tree
+// description : class for segement tree
 class segment_tree {
     unsigned long int seg_size;
     vector<int> seg;
